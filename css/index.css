@@ -1,0 +1,24 @@
+a.site-link {
+    font-family: "微软雅黑",tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+a.my-nav-link {
+    font-family: "微软雅黑",tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    font-size: 20px;
+}
+
+h3.my-section-title {
+    font-family: "黑体",tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    font-size: 25px;
+}
+
+h2.my-title {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+p.my-paragraph {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    font-size: 22px;
+}
