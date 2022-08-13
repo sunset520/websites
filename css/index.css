@@ -1,3 +1,4 @@
+/* 主要 */
 a.site-link {
     font-family: "微软雅黑",tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;;
     color: rgb(0, 0, 0);
@@ -22,7 +23,9 @@ p.my-paragraph {
     font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
     font-size: 22px;
 }
+/* 主要 */
 
+/* 一键到顶 */
 .boxup{
 position:fixed;
 right:10px;
@@ -61,3 +64,4 @@ border: 3px solid /*white*/;
 border-color: black transparent transparent black;
 transform:rotate(45deg);
 }
+/* 一键到顶 */
