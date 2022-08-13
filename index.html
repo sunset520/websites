@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
 </head>
 
+
+
 <body>
 
     <div class="container bg-light text-white text-center">
@@ -27,9 +29,18 @@
                             <a class="nav-link my-nav-link">搜索</a>
                         </li>
                         <li>
+                            <a class="nav-link my-nav-link">编程</a>
+                        </li>
+                        <li>
+                            <a class="nav-link my-nav-link">学术</a>
+                        </li>
+                        <li>
                             <a class="nav-link my-nav-link">工具</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li>
+                            <a class="nav-link my-nav-link">工具</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle my-nav-link" href="#" role="button"
                                 data-bs-toggle="dropdown">其他</a>
                             <ul class="dropdown-menu">
@@ -39,11 +50,11 @@
                                 <li><a class="dropdown-item my-nav-link" href="https://www.springer.com/">Springer</a></li>
                                 <li><a class="dropdown-item my-nav-link" href="https://www.cnki.net/">CNKI</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
-                    <div class="dropdown">
+                    <!-- <div class="dropdown">
 
-                    </div>
+                    </div> -->
                     <form action="https://www.bing.com/search?" method="get" class="d-flex" role="search">
                         <input type="text" class="form-control me-2" name="q" />
                         <button type="submit" class="btn btn-primary">Search</button>
@@ -208,6 +219,11 @@
                     <a href="https://cn.overleaf.com/" class="site-link" style="text-decoration: none;"><center>Overleaf</center></a>
                 </div>
             </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mt-2">
+                <div class="alert alert-info">
+                    <a href="https://leancloud.app/" class="site-link" style="text-decoration: none;"><center>LeanCloud</center></a>
+                </div>
+            </div>
             
         </div>
     </div>
@@ -253,9 +269,63 @@
                     <a href="https://www.cnki.net/" class="site-link" style="text-decoration: none;"><center>CNKI</center></a>
                 </div>
             </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mt-2">
+                <div class="alert alert-warning">
+                    <a href="https://www.nankai.edu.cn/" class="site-link" style="text-decoration: none;"><center>南开</center></a>
+                </div>
+            </div>
         </div>
     </div>
 
+
+    <!-- 工具 -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <div>
+                    <h3 class="my-section-title">
+                        工具
+                    </h3>
+                    <hr />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6 mt-2">
+                <div class="alert alert-danger">
+                    <a href="https://arxiv.org/" class="site-link" style="text-decoration: none;"><center>arXiv</center></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mt-2">
+                <div class="alert alert-danger">
+                    <a href="https://www.science.org/" class="site-link" style="text-decoration: none;"><center>Science</center></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mt-2">
+                <div class="alert alert-danger">
+                    <a href="https://www.nature.com/" class="site-link" style="text-decoration: none;"><center>Nature</center></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mt-2">
+                <div class="alert alert-danger">
+                    <a href="https://www.springer.com/" class="site-link" style="text-decoration: none;"><center>Springer</center></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mt-2">
+                <div class="alert alert-danger">
+                    <a href="https://www.cnki.net/" class="site-link" style="text-decoration: none;"><center>CNKI</center></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 mt-2">
+                <div class="alert alert-danger">
+                    <a href="https://www.nankai.edu.cn/" class="site-link" style="text-decoration: none;"><center>南开</center></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -266,18 +336,25 @@
                 <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
             </div>
 
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <div style="color:black;text-align:center;padding:5px;">
+                <div id="poem_sentence"></div>
+                <div id="poem_info"></div>
+            </div>
+
+            <!-- <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a class="text-muted" href="#"><img src="icons/toggles.svg" alt="Toggles" width="24"
                             height="24"></a></li>
                 <li class="ms-3"><a class="text-muted" href="#"><img src="icons/heart-fill.svg" alt="Heart-fill"
                             width="24" height="24"></a></li>
                 <li class="ms-3"><a class="text-muted" href="#"><img src="icons/shop.svg" alt="Shop" width="24"
                             height="24"></a></li>
-            </ul>
+            </ul> -->
         </footer>
     </div>
 
-
+    <div id="boxup" class="boxup">
+        <div class="boxup-in"></div>
+    </div>
 </body>
 
 <!-- 最新编译的 JavaScript -->
@@ -288,5 +365,35 @@
 <script>
     new Darkmode().showWidget();
 </script> -->
+<script src="js/jrsc.js" charset="utf-8"></script>
+<script type="text/javascript">
+    jinrishici.load(function(result) {
+        var sentence = document.querySelector("#poem_sentence")
+        var info = document.querySelector("#poem_info")
+        sentence.innerHTML = result.data.content
+        info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+    });
+</script>
+
+<script>
+    var timer  = null;
+    boxup.onclick = function(){
+        cancelAnimationFrame(timer);
+        //获取当前毫秒数
+        var startTime = +new Date();     
+        //获取当前页面的滚动高度
+        var b = document.body.scrollTop || document.documentElement.scrollTop;
+        var d = 500;
+        var c = b;
+        timer = requestAnimationFrame(function func(){
+            var t = d - Math.max(0,startTime - (+new Date()) + d);
+            document.documentElement.scrollTop = document.body.scrollTop = t * (-c) / d + b;
+            timer = requestAnimationFrame(func);
+            if(t == d){
+              cancelAnimationFrame(timer);
+            }
+        });
+    }
+</script>
 
 </html>
